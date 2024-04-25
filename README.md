@@ -12,7 +12,7 @@ You need Python installed on your system. The script is tested with Python 3.8 a
 
 ### Installing
 
-First, clone the repository or download the source code to your local machine. Then, navigate to the directory containing `tournament_manager.py` and run the following command to install the required Python packages:
+First, clone the repository or download the source code to your local machine. Then, navigate to the directory containing `tourn.py` and run the following command to install the required Python packages:
 
 ```bash
 pip install flake8 flake8-html
