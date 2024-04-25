@@ -8,15 +8,18 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-You need Python installed on your system. The script is tested with Python 3.8 and above. You also need to install several packages to run the script and generate reports.
+You need Python installed on your system. The script is tested with Python 3.8 and above.
 
 ### Installing
 
-First, clone the repository or download the source code to your local machine. Then, navigate to the directory containing `tourn.py` and run the following command to install the required Python packages:
+First, clone the repository or download the source code to your local machine. Then, navigate to the directory containing `tourn.py` and run the following command to run it:
+
+python3 tourn.py
+
+## And for the flake report and html file:
 
 ```bash
 pip install flake8 flake8-html
 
-To generate flake html report :
-flake8 --format=html --htmldir=flake-report tournament_manager.py
+flake8 --format=html --htmldir=flake-report tourn.py
 
